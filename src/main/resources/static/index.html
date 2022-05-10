@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.2.2/echarts.min.js"></script>
+
+    <title>GCTrace</title>
+</head>
+<body>
+
+
+<div style=" text-align: left">
+    <form action="connect" method="get" style="display: inline-block">
+        ip: <input type="text" name="ip"/>
+        port: <input type="text" name="port"/>
+        <input type="submit" value="connect"/>
+    </form>
+
+</div>
+
+<div id="chart" style="width: 1600px;height: 400px"></div>
+
+
+</body>
+
+
+
+<script type="text/javascript">
+    var xData = []
+
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('chart'));
+    // 指定图表的配置项和数据
+    var option = {
+        title: {
+            text: 'GC Trace'
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+        // legend: {
+        //     data: ['销量']
+        // },
+        xAxis: {
+            type: 'category',
+            splitNumber: 20,
+            splitLine: {
+                show: false
+            },
+            data:this.xData
+
+        },
+        yAxis: {
+            type:'value',
+            splitLine: {
+                show: false
+            }
+        },
+        series: [{
+            name: '销量',
+            type: 'line',
+            step: 'start',
+            showSymbol: false,
+            hoverAnimation: false,
+            data: [1, 1, 2,3, 4, 5]
+        }]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+    this.setInterval(initPointGraphData,1000)
+
+    function initPointGraphData(){
+        var  aa = new Date().getTime()
+        this.xData.push(aa)
+        console.log(this.xData)
+        console.log(this.option)
+        this.myChart.setOption(this.option)
+        // this.myChart.setOption({
+        //     xAxis.setData.put(new Date().getTime())
+        // })
+        // console.log(new Date().getTime()-aa)
+    }
+
+
+
+
+    // webSocket案例
+    var ws;
+
+    if(window.WebSocket){
+        ws = new WebSocket("ws://localhost:8085/ws");
+
+        ws.onmessage = function(event){
+            var messages = document.getElementById("messages");
+            messages.value += event.data + "\n";
+        };
+
+        ws.onopen = function(event){
+            // let messages = document.getElementById("messages");
+            // messages.value += "WebSocket连接成功\n";
+            console.log("连接开启")
+
+        };
+
+        ws.onclose = function(event){
+            console.log("连接开启")
+        };
+    }else{
+        alert("浏览器不支持WebSocket");
+    }
+
+    function send(value){
+        console.log(111)
+        if(ws.readyState == WebSocket.OPEN){
+            ws.send(value);
+            this.form.message.value = "";
+        }else{
+            alert("WebSocket连接没有建立成功");
+        }
+    }
+
+
+
+
+
+
+
+</script>
+</html>
