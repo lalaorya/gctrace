@@ -28,6 +28,10 @@
 <script type="text/javascript">
     var xData = []
 
+    var yData = []
+
+    var seriesData = []
+
     // 基于准备好的dom，初始化echarts实例
     var myChart = echarts.init(document.getElementById('chart'));
     // 指定图表的配置项和数据
@@ -43,38 +47,38 @@
         // },
         xAxis: {
             type: 'category',
-            splitNumber: 20,
+            splitNumber: 1,
             splitLine: {
                 show: false
             },
-            data:this.xData
+            boundaryGap: false
+            // data:this.xData
 
         },
         yAxis: {
+            boundaryGap: false,
             type:'value',
-            splitLine: {
-                show: false
-            }
+            splitNumber: 1,
+            // splitLine: {
+            //     show: false
+            // }
         },
-        series: [{
-            name: '销量',
-            type: 'line',
-            step: 'start',
-            showSymbol: false,
-            hoverAnimation: false,
-            data: [1, 1, 2,3, 4, 5]
-        }]
+        series: {
+                data: this.seriesData,
+                data: [[20,1,5],[30,0,9],[40,1,1]],
+                type: 'line'
+            }
+
     };
     // 使用刚指定的配置项和数据显示图表。
     myChart.setOption(option);
-    this.setInterval(initPointGraphData,1000)
+    // this.setInterval(initPointGraphData,1000)
 
     function initPointGraphData(){
-        var  aa = new Date().getTime()
-        this.xData.push(aa)
-        console.log(this.xData)
-        console.log(this.option)
-        this.myChart.setOption(this.option)
+        console.log(this.seriesData)
+        this.myChart.setOption({
+            series: this.seriesData
+        })
         // this.myChart.setOption({
         //     xAxis.setData.put(new Date().getTime())
         // })
@@ -91,13 +95,30 @@
         ws = new WebSocket("ws://localhost:8085/ws");
 
         ws.onmessage = function(event){
-            var messages = document.getElementById("messages");
-            messages.value += event.data + "\n";
+            var t = JSON.parse(event.data)
+            // console.log(t)
+            // console.log(t.startTime)
+            var i = 1
+            seriesData.push(new Array(t.startTime,0))
+            seriesData.push(new Array(t.startTime,1))
+            seriesData.push(new Array(t.endTime,1))
+            seriesData.push(new Array(t.endTime,0))
+
+            if(seriesData.length > 10){
+                seriesData.shift()
+                seriesData.shift()
+                // seriesData.shift()
+                // seriesData.shift()
+            }
+
+
+            myChart.setOption(option)
+
+            console.log(seriesData)
+
         };
 
         ws.onopen = function(event){
-            // let messages = document.getElementById("messages");
-            // messages.value += "WebSocket连接成功\n";
             console.log("连接开启")
 
         };

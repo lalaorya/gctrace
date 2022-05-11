@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/xrange.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+
+    <style>
+        button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 4px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 13px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+
+    <title>GCTrace</title>
+</head>
+<body>
+
+
+<div style="text-align: left">
+<!--    <form onsubmit="return connect()" method="get" style="display: inline-block">-->
+        ip: <input type="text" name="ip" id="ip" VALUE="127.0.0.1"/>
+        port: <input type="text" name="port" id="port" VALUE="8085"/>
+        <button type="button" id="button">连接</button>
+
+</div>
+
+
+<div id="container" style="width:100%; height:400px; margin-top: 50px"></div>
+
+
+</body>
+
+
+<script type="text/javascript">
+
+    var chart = Highcharts.chart('container', {
+        chart: {
+            type: 'xrange'
+        },
+        title: {
+            text: '<p style="color: burlywood"><strong>GC TRACE</strong></p>'
+
+        },
+        accessibility: {
+            point: {
+                descriptionFormatter: function (point) {
+
+                    var ix = point.index + 1,
+                        category = point.yCategory,
+                        from = new Date(point.x),
+                        to = new Date(point.x2);
+                    return ix + '. ' + category + ', ' + from.toDateString() +
+                        ' to ' + to.toDateString() + '.';
+                }
+            }
+        },
+        tooltip: {
+            shared: true,
+            useHTML: true,
+            formatter: function (){
+                start = new Date(this.points[0].x);
+                end = new Date(this.points[0].x2);
+
+
+              console.log(this);
+              return    '<b>time:</b>' + start.toLocaleTimeString() + '.' + start.getMilliseconds() + '~' + end.toLocaleTimeString() + '.' + end.getMilliseconds() + '<br>'+
+                  '<b>pauseMillis:</b>' + this.points[0].point.pauseTime + '</br>' +
+                  '<b>gcName:</b>' + this.points[0].point.gcName + '<br>' +
+                  '<b>gcCause:</b>' + this.points[0].point.gcCause + '<br>'+
+                  '<b>eventAction:</b>' + this.points[0].point.gcAction + '<br>';
+            },
+
+
+        },
+        time: {
+            useUTC: false
+        },
+        xAxis: {
+            type: 'datetime',
+            crosshair: true,
+            title: {
+                text: 'Timeline'
+            }
+        },
+        yAxis: {
+            title: {
+                text: 'isSTW'
+            },
+            crosshair: true,
+            categories: ['1','0'],
+            reversed: true
+        },
+        series: [{
+            name: 'STW',
+            borderColor: 'gray',
+            pointWidth: 20,
+            data: [
+
+            ],
+            dataLabels: {
+                enabled: true
+            }
+        }]
+
+    });
+
+
+
+
+    $("button").click(function (){
+        var ip = $("#ip").val()
+        var port = $("#port").val()
+
+        // // webSocket案例
+        var ws;
+
+        if (window.WebSocket) {
+            // ws = new WebSocket("ws://localhost:8085/ws");
+            ws = new WebSocket("ws://" + ip + ":" + port + "/ws");
+            ws.onmessage = function (event) {
+                var t = JSON.parse(event.data)
+
+                if(t.pauseMillis >= 0){
+                    console.log(chart.series[0].points.length)
+                    // 只显示二十个数据，超过20个删除第一个数据
+                    if(chart.series[0].points.length < 20){
+                        chart.series[0].addPoint({x:t.startTime,x2:t.endTime,y:0,pauseTime:t.pauseMillis,gcCause:t.gcCause,gcAction:t.gcAction,maxPauseMillis:t.maxPauseMillis,gcName:t.gcName},true,false);
+                        // console.log(t1)
+                    }else{
+                        chart.series[0].addPoint({x:t.startTime,x2:t.endTime,y:0,pauseTime:t.pauseMillis,gcCause:t.gcCause,gcAction:t.gcAction,maxPauseMillis:t.maxPauseMillis,gcName:t.gcName},true,true);
+                    }
+                }
+
+                console.log(chart.series[0])
+
+            };
+
+            ws.onopen = function (event) {
+                console.log("连接开启")
+                // 发送ajax从数据库读取历史数据
+                $.ajax({
+                    type: "get",
+                    dataType: "json",
+                    url: "http://" + ip + ":" + port + "/getHistoryLog",
+                    success: function (res){
+                        console.log(res)
+                        for(j = 0;j < res.length;j++){
+                            var t = res[j]
+                            console.log(t)
+                            if(chart.series[0].points.length < 20){
+                                chart.series[0].addPoint({x:t.startTime,x2:t.endTime,y:0,pauseTime:t.pauseMillis},true,false)
+                            }else {
+                                chart.series[0].addPoint({x:t.startTime,x2:t.endTime,y:0,pauseTime:t.pauseMillis},true,true)
+                            }
+
+                        }
+
+                        console.log(chart.series[0])
+                    }
+                })
+
+
+
+            };
+
+            ws.onclose = function (event) {
+                console.log("连接开启")
+            };
+        } else {
+            alert("浏览器不支持WebSocket");
+        }
+
+        function send(value) {
+            if (ws.readyState == WebSocket.OPEN) {
+                ws.send(value);
+                this.form.message.value = "";
+            } else {
+                alert("WebSocket连接没有建立成功");
+            }
+        }
+
+
+
+    })
+
+
+
+
+</script>
+</html>
+
+
