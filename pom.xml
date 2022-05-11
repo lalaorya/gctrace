@@ -63,6 +63,13 @@
             <artifactId>influxdb-client-java</artifactId>
             <version>4.3.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.influxdb</groupId>
+            <artifactId>flux-dsl</artifactId>
+            <version>6.0.0</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>

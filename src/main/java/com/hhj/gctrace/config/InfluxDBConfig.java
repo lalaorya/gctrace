@@ -14,9 +14,15 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class InfluxDBConfig {
 
+    /**
+     * 访问凭证
+     */
     @Value("${INFLUXDB_TOKEN}")
     String token;
 
+    /**
+     * 相当于数据库database
+     */
     @Value("${INFLUXDB_BUCKET}")
     String bucket;
 
@@ -27,12 +33,11 @@ public class InfluxDBConfig {
     String url;
 
     /**
-     * 初始化数据
+     * 注入client对象
      * @return
      */
     @Bean
     public InfluxDBClient initClient(){
-        System.out.println(System.getenv(token));
         return InfluxDBClientFactory.create(url,token.toCharArray(),org,bucket);
     }
 }

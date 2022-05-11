@@ -1,10 +1,7 @@
 package com.hhj.gctrace.pojo.dto;
 
-import com.influxdb.annotations.Column;
-import com.influxdb.annotations.Measurement;
 import lombok.*;
 
-import java.time.Instant;
 
 /**
  * @Author virtual
@@ -17,30 +14,35 @@ import java.time.Instant;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-@Measurement(name = "gcMessage")
 public class GCMessageDTO {
-    @Column(timestamp = true)
-    Instant startTime;
 
-    @Column(tag = true)
-    Instant endTime;
+   private Long startTime;
 
-    @Column
-    Long pauseMillis;
 
-    @Column
-    Long maxPauseMillis;
+   private Long endTime;
 
-    @Column
-    String gcCause;
 
-    @Column
-    String gcAction;
+   private Long pauseMillis;
 
-    @Column
-    String gcName;
 
-    @Column
-    String type;
+   private Long maxPauseMillis;
+
+
+   private String gcCause;
+
+
+   private String gcAction;
+
+
+   private String gcName;
+
+
+   private String type;
+
+    /**
+     * 格式：ip:port
+     */
+//    @Column
+//    String serverAddress;
 
 }

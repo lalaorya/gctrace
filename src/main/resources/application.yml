@@ -1,7 +1,7 @@
-INFLUXDB_TOKEN: mgttvBQT_QTnKSWlumdhyJjbcuPXQn51S9EQlScfTilPz5RO7HAEOB1-oOw07h0tITlTx5jGCw6_o2YjRIvL6w==
+INFLUXDB_TOKEN: d13Nqb90fCe5Uemjmx8FkQKQclluKpmCv2si4SWsUyQHwJGnJjMQFpLa2K4BNcaCLsWyTvEIKRVrOAJx_xXvlQ==
 
 INFLUXDB_BUCKET: gclog
 
-INFLUXDB_ORG: sangmu.hhj@gmail.com
+INFLUXDB_ORG: dev
 
-INFLUXDB_URL: https://us-east-1-1.aws.cloud2.influxdata.com
+INFLUXDB_URL: http://localhost:8086

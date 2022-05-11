@@ -7,8 +7,8 @@ package com.hhj.gctrace.config;
  */
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.hhj.gctrace.pojo.dto.GCMessageDTO;
+import com.hhj.gctrace.service.GCMessageService;
 import com.hhj.gctrace.service.WebSocketService;
 import com.sun.management.GarbageCollectionNotificationInfo;
 import com.sun.management.GcInfo;
@@ -18,16 +18,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
 import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
-import javax.management.ListenerNotFoundException;
 import javax.management.Notification;
 import javax.management.NotificationEmitter;
 import javax.management.NotificationListener;
 import javax.management.openmbean.CompositeData;
 import java.lang.management.*;
-import java.time.Instant;
-import java.util.*;
-import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -50,6 +45,9 @@ public class  BindGCNotifyConfig {
     @Autowired
     WebSocketService webSocketService;
 
+    @Autowired
+    GCMessageService messageService;
+
     public BindGCNotifyConfig() {
     }
 
@@ -57,6 +55,7 @@ public class  BindGCNotifyConfig {
 
     private final AtomicBoolean inited = new AtomicBoolean(Boolean.FALSE);
     private final AtomicLong maxPauseMillis = new AtomicLong(0L);
+    // 记录服务器启动时间
     private final Long serverStartTime = System.currentTimeMillis();
 
     @PostConstruct
@@ -112,8 +111,8 @@ public class  BindGCNotifyConfig {
                 GcInfo gcInfo = notificationInfo.getGcInfo();
                 // duration 是指 Pause 阶段的总停顿时间
                 long duration = gcInfo.getDuration();
-                Instant startTime = Instant.ofEpochMilli(gcInfo.getStartTime() + serverStartTime);
-                Instant endTime = Instant.ofEpochMilli(gcInfo.getEndTime() + serverStartTime);
+                Long startTime = gcInfo.getStartTime() + serverStartTime;
+                Long endTime = gcInfo.getEndTime() + serverStartTime;
 
                 if (maxPauseMillis.longValue() < duration) {
                     // 保证线程安全
@@ -126,6 +125,7 @@ public class  BindGCNotifyConfig {
                 if ("No GC".equals(gcCause)) {
                     return;
                 }
+
                 // 构造信息
                 GCMessageDTO message = GCMessageDTO.builder()
                         .gcName(gcName)
@@ -135,12 +135,17 @@ public class  BindGCNotifyConfig {
                         .endTime(endTime)
                         .pauseMillis(duration)
                         .maxPauseMillis(maxPauseMillis.longValue())
-                        .type(type).build();
+                        .type(type)
+                        .build();
 
 
                 logger.info("[GC 日志监听-GC 事件]gcId={}; gcDetail: {}", gcId, message);
                 // 通过webSocket群发给连接的用户
                 webSocketService.broadcast(message);
+                // 持久化
+                messageService.write(message);
+//                messageService.read()
+
 
             }
         };
