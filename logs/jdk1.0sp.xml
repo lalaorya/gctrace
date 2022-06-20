@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='6634' time_ms='1655712378176'>
+<vm_version>
+<name>
+Java HotSpot(TM) 64-Bit Server VM
+</name>
+<release>
+25.333-b02
+</release>
+<info>
+Java HotSpot(TM) 64-Bit Server VM (25.333-b02) for bsd-amd64 JRE (1.8.0_333-b02), built on Apr 26 2022 06:41:53 by &quot;java_re&quot; with gcc 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17)
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-Xloggc:./logs/gc.log -XX:+UnlockDiagnosticVMOptions -XX:+LogVMOutput -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCApplicationStoppedTime -XX:+PrintSafepointStatistics -XX:PrintSafepointStatisticsCount=1 -XX:LogFile=./logs/jdk1.0sp.log -XX:TieredStopAtLevel=1 -Xverify:none -Dspring.output.ansi.enabled=always -Dcom.sun.management.jmxremote -Dspring.jmx.enabled=true -Dspring.liveBeansView.mbeanDomain -Dspring.application.admin.enabled=true -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=49735:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 
+</args>
+<command>
+com.hhj.gctrace.GctraceApplication
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=25.333-b02
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=/Users/huanghaojie/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/endorsed
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib
+java.library.path=/Users/huanghaojie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre
+java.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/tools.jar:/Users/huanghaojie/IdeaProjects/gctrace/target/classes:/Users/huanghaojie/.m2/repository/com/microsoft/gctoolkit/gctoolkit-api/2.0.9/gctoolkit-api-2.0.9.jar:/Users/huanghaojie/.m2/repository/com/microsoft/gctoolkit/gctoolkit-vertx/2.0.9/gctoolkit-vertx-2.0.9.jar:/Users/huanghaojie/.m2/repository/io/vertx/vertx-core/4.2.6/vertx-core-4.2.6.jar:/Users/huanghaojie/.m2/repository/io/netty/netty-common/4.1.55.Final/netty-common-4.1.55.Final.jar:/Users/huanghaojie/.m2/repository/io/netty/netty-buffer/4.1.55.Final/netty-buffer-4.1.55.Final.jar:/Users/huanghaojie/.m2/repository/io/netty/netty-transport/4.1.55.Final/netty-transport-4.1.55.Final.jar:/Users/huanghaojie/.m2/repository/io/netty/netty-handler/4.1.55.Final/netty-handler-4.1.55.Final.jar:/Users/huanghaojie/.m2/repository/io/netty/netty-codec/4.1.55.Final/netty-codec-4.1.55.Final.jar:/Users/huanghaojie/.m2/repository/io/netty/netty-handler-proxy/4.1.55.Final/netty-handler-proxy-4.1.55.Final.jar:/Users/huanghaojie/.m2/repository/io/netty/netty-codec-socks/4.1.55.Final/netty-codec-socks-4.1.55.Final.jar:/Users/huanghaojie/.m2/repository/io/netty/netty-codec-http/4.1.55.Final/netty-codec-http-4.1.55.Final.jar:/Users/huanghaojie/.m2/repository/io/netty/netty-codec-http2/4.1.55.Final/netty-codec-http2-4.1.55.Final.jar:/Users/huanghaojie/.m2/repository/io/netty/netty-resolver/4.1.55.Final/netty-resolver-4.1.55.Final.jar:/Users/huanghaojie/.m2/reposit
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.8
+java.vm.vendor=Oracle Corporation
+spring.output.ansi.enabled=always
+com.sun.management.jmxremote=
+spring.jmx.enabled=true
+spring.liveBeansView.mbeanDomain=
+spring.application.admin.enabled=true
+file.encoding=UTF-8
+sun.java.command=com.hhj.gctrace.GctraceApplication
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<blob name='MethodHandlesAdapterBlob' size='32000'>
+<sect index='1' size='32000' free='31628'/>
+</blob>
+<writer thread='3587'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/Properties' x='java/util/Properties getProperty (Ljava/lang/String;)Ljava/lang/String;' witness='java/security/Provider' stamp='0.416'/>
+<writer thread='12547'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+0.417: Deoptimize                       [      10          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+1.418: no vm operation                  [      10          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3587'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='javax/management/AttributeList' stamp='5.497'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='javax/management/AttributeList' stamp='5.497'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='javax/management/AttributeList' stamp='5.497'/>
+<writer thread='12547'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+5.497: Deoptimize                       [      11          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3587'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/io/DataOutput' x='java/io/DataOutputStream write ([BII)V' witness='java/io/DataOutput' stamp='5.499'/>
+<writer thread='12547'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+5.499: Deoptimize                       [      11          0              0    ]      [     0     0     0     0     0    ]  0   
+<destroy_vm stamp='5.510'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+5.510: no vm operation                  [      10          1              1    ]      [     0     0     0     0   352    ]  0   
+
+Polling page always armed
+Deoptimize                         3
+    0 VM operations coalesced during safepoint
+Maximum sync time      0 ms
+Maximum vm operation time (except for Exit VM operation)      0 ms
+<tty_done stamp='5.862'/>
+</tty>
+<hotspot_log_done stamp='5.862'/>
+</hotspot_log>

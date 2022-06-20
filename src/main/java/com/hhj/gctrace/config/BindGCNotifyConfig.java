@@ -29,6 +29,8 @@ import java.util.concurrent.atomic.AtomicLong;
 /**
  * 使用Notification监听GC日志 并持久化到 influxDB
  * JVM 启动参数:
+ *
+ *  jdk1.8:
  *   -Xmx500m
  *   -Xms500m
  *   -XX:+UseConcMarkSweepGC
@@ -38,6 +40,12 @@ import java.util.concurrent.atomic.AtomicLong;
  *   -XX:+PrintGCDateStamps
  *   -XX:+PrintGCApplicationConcurrentTime
  *   -XX:+PrintGCApplicationStoppedTime
+ *   -XX:+PrintSafepointStatistics
+ *   -XX:+PrintSafepointStatisticsCount=1
+ *
+ *   jdk1.8以上：
+ *   -Xlog:gct
+ *   -Xlog:safepoint=info:file=./logs/safepoint%t.log:utctime,level,tags:filecount=10,filesize=10M
  */
 @Configuration
 public class  BindGCNotifyConfig {
@@ -141,9 +149,9 @@ public class  BindGCNotifyConfig {
 
                 logger.info("[GC 日志监听-GC 事件]gcId={}; gcDetail: {}", gcId, message);
                 // 通过webSocket群发给连接的用户
-                webSocketService.broadcast(message);
+//                webSocketService.broadcast(message);
                 // 持久化
-                messageService.write(message);
+//                messageService.write(message);
 //                messageService.read()
 
 

@@ -1,0 +1,19 @@
+Java HotSpot(TM) 64-Bit Server VM (25.333-b02) for bsd-amd64 JRE (1.8.0_333-b02), built on Apr 26 2022 06:41:53 by "java_re" with gcc 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17)
+Memory: 4k page, physical 16777216k(39720k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:-BytecodeVerificationLocal -XX:-BytecodeVerificationRemote -XX:InitialHeapSize=268435456 -XX:LogFile=./logs/jdk1.0sp.log -XX:+LogVMOutput -XX:+ManagementServer -XX:MaxHeapSize=4294967296 -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintSafepointStatistics -XX:PrintSafepointStatisticsCount=1 -XX:TieredStopAtLevel=1 -XX:+UnlockDiagnosticVMOptions -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseParallelGC 
+2022-06-20T16:06:18.593-0800: 0.417: Total time for which application threads were stopped: 0.0003286 seconds, Stopping threads took: 0.0000142 seconds
+2022-06-20T16:06:19.594-0800: 1.418: Total time for which application threads were stopped: 0.0001431 seconds, Stopping threads took: 0.0000351 seconds
+2022-06-20T16:06:23.674-0800: 5.498: Total time for which application threads were stopped: 0.0001500 seconds, Stopping threads took: 0.0000091 seconds
+2022-06-20T16:06:23.676-0800: 5.500: Total time for which application threads were stopped: 0.0001068 seconds, Stopping threads took: 0.0000071 seconds
+Heap
+ PSYoungGen      total 76288K, used 15780K [0x000000076ab00000, 0x0000000770000000, 0x00000007c0000000)
+  eden space 65536K, 24% used [0x000000076ab00000,0x000000076ba69208,0x000000076eb00000)
+  from space 10752K, 0% used [0x000000076f580000,0x000000076f580000,0x0000000770000000)
+  to   space 10752K, 0% used [0x000000076eb00000,0x000000076eb00000,0x000000076f580000)
+ ParOldGen       total 175104K, used 0K [0x00000006c0000000, 0x00000006cab00000, 0x000000076ab00000)
+  object space 175104K, 0% used [0x00000006c0000000,0x00000006c0000000,0x00000006cab00000)
+ Metaspace       used 7290K, capacity 7422K, committed 7680K, reserved 1056768K
+  class space    used 886K, capacity 956K, committed 1024K, reserved 1048576K
