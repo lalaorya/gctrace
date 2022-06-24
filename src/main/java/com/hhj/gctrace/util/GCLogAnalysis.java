@@ -18,7 +18,7 @@ public class GCLogAnalysis {
         // 当前毫秒时间戳
         long startMillis = System.currentTimeMillis();
         // 持续运行毫秒数; 可根据需要进行修改
-        long timeoutMillis = TimeUnit.SECONDS.toMillis(600);
+        long timeoutMillis = TimeUnit.SECONDS.toMillis(60000000);
         // 结束时间戳
         long endMillis = startMillis + timeoutMillis;
         LongAdder counter = new LongAdder();
@@ -31,7 +31,7 @@ public class GCLogAnalysis {
             // 生成垃圾对象
             generateGarbage(50000000);
             try {
-                Thread.sleep(500);
+                Thread.sleep(5);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

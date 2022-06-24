@@ -42,10 +42,16 @@ import java.util.concurrent.atomic.AtomicLong;
  *   -XX:+PrintGCApplicationStoppedTime
  *   -XX:+PrintSafepointStatistics
  *   -XX:+PrintSafepointStatisticsCount=1
+ * -XX:+UnlockDiagnosticVMOptions
+ * -XX:+LogVMOutput
+ * -XX:LogFile=./logs/jdk8safepoint.log
  *
  *   jdk1.8以上：
  *   -Xlog:gct
  *   -Xlog:safepoint=info:file=./logs/safepoint%t.log:utctime,level,tags:filecount=10,filesize=10M
+ *
+ *
+ *   -Xlog:gc*:./logs/gc.log
  */
 @Configuration
 public class  BindGCNotifyConfig {
