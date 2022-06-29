@@ -31,7 +31,7 @@ public class GCLogAnalysis {
             // 生成垃圾对象
             generateGarbage(50000000);
             try {
-                Thread.sleep(5);
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

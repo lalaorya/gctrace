@@ -30,6 +30,19 @@ import java.util.concurrent.atomic.AtomicLong;
  * 使用Notification监听GC日志 并持久化到 influxDB
  * JVM 启动参数:
  *
+ * -Xloggc:/Users/huanghaojie/IdeaProjects/gctoolkit-test/src/main/resources/gclog-fat.log
+ * -XX:+PrintGCDetails
+ * -XX:+UnlockExperimentalVMOptions
+ * -XX:+UseCGroupMemoryLimitForHeap
+ * -XX:+PrintGCApplicationStoppedTime
+ * -XX:+PrintGCDateStamps
+ * -XX:+PrintHeapAtGC
+ * -Dfile.encoding=UTF-8
+ * -Dsun.jnu.encoding=UTF-8
+ * -Dlog4j2.formatMsgNoLookups=true
+ * -server
+ *
+ *
  *  jdk1.8:
  *   -Xmx500m
  *   -Xms500m
