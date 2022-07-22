@@ -1,0 +1,735 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='3911' time_ms='1658310517271'>
+<vm_version>
+<name>
+Java HotSpot(TM) 64-Bit Server VM
+</name>
+<release>
+25.333-b02
+</release>
+<info>
+Java HotSpot(TM) 64-Bit Server VM (25.333-b02) for bsd-amd64 JRE (1.8.0_333-b02), built on Apr 26 2022 06:41:53 by &quot;java_re&quot; with gcc 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17)
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-XX:+PrintGCDateStamps -Xloggc:./logs/jdk8gc.log -XX:+PrintGCApplicationStoppedTime -XX:+PrintSafepointStatistics -XX:PrintSafepointStatisticsCount=1 -XX:+UnlockDiagnosticVMOptions -XX:+LogVMOutput -Dfile.encoding=UTF-8 -Dsun.jnu.encoding=UTF-8 -Dlog4j2.formatMsgNoLookups=true -XX:LogFile=./logs/jdk8safepoint2.log -XX:TieredStopAtLevel=1 -Xverify:none -Dspring.output.ansi.enabled=always -Dcom.sun.management.jmxremote -Dspring.jmx.enabled=true -Dspring.liveBeansView.mbeanDomain -Dspring.application.admin.enabled=true -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=59879:/Applications/IntelliJ IDEA.app/Contents/bin 
+</args>
+<command>
+com.hhj.gctrace.GctraceApplication
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=25.333-b02
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=/Users/huanghaojie/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/endorsed
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib
+java.library.path=/Users/huanghaojie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre
+java.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/lib/tools.jar:/Users/huanghaojie/IdeaProjects/gctrace/target/classes:/Users/huanghaojie/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.7.RELEASE/spring-boot-starter-web-2.3.7.RELEASE.jar:/Users/huanghaojie/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.7.RELEASE/spring-boot-starter-2.3.7.RELEASE.jar:/Users/huanghaojie/.m2/repository/org/springframework/boot/spring-boot/2.3.7.RELEASE/spring-boot-2.3.7.RELEASE.jar:/Users/huanghaojie/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.7.RELEASE/spring-boot-autoconfigure-2.3.7.RELEASE.jar:/Users/huanghaojie/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.7.RELEASE/spring-boot-starter-logging-2.3.7.RELEASE.jar:/Users/huanghaojie/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/huanghaojie/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/huanghaojie/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar:/Users/huanghaojie/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/huanghaojie/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar:/Users/huanghaojie/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/huanghaojie/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar:/Users/huangha
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_333.jdk/Contents/Home/jre/classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.8
+java.vm.vendor=Oracle Corporation
+file.encoding=UTF-8
+sun.jnu.encoding=UTF-8
+log4j2.formatMsgNoLookups=true
+spring.output.ansi.enabled=always
+com.sun.management.jmxremote=
+spring.jmx.enabled=true
+spring.liveBeansView.mbeanDomain=
+spring.application.admin.enabled=true
+sun.java.command=com.hhj.gctrace.GctraceApplication
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<blob name='MethodHandlesAdapterBlob' size='32000'>
+<sect index='1' size='32000' free='31628'/>
+</blob>
+<writer thread='3075'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/ThreadLocal' x='java/lang/ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' witness='java/lang/InheritableThreadLocal' stamp='0.355'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+0.356: Deoptimize                       [      10          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+1.360: no vm operation                  [      10          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='javax/management/AttributeList' stamp='5.444'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='javax/management/AttributeList' stamp='5.444'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='javax/management/AttributeList' stamp='5.444'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='javax/management/AttributeList' stamp='5.444'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+5.444: Deoptimize                       [      11          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/io/DataOutput' x='java/io/DataOutputStream write ([BII)V' witness='java/io/DataOutput' stamp='5.446'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+5.446: Deoptimize                       [      11          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='43267'/>
+<dependency_failed type='unique_concrete_method' ctxk='sun/nio/cs/ArrayEncoder' x='sun/nio/cs/UTF_8$Encoder encode ([CII[B)I' witness='sun/nio/cs/ArrayEncoder' stamp='5.482'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+5.482: Deoptimize                       [      12          0              1    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='5.538'/>
+<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='5.538'/>
+<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='5.538'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+5.538: Deoptimize                       [      12          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='java/io/BufferedReader' witness='java/io/LineNumberReader' stamp='5.734'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+5.734: Deoptimize                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+6.736: no vm operation                  [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+7.742: no vm operation                  [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+9.492: EnableBiasedLocking              [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+9.704: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+10.213: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+10.717: ParallelGCFailedAllocation       [      15          0              0    ]      [     0     0     0     0    15    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+10.738: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='23087'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/springframework/util/LinkedCaseInsensitiveMap$1' stamp='10.838'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/HashMap' x='java/util/HashMap containsKey (Ljava/lang/Object;)Z' witness='org/springframework/util/LinkedCaseInsensitiveMap$1' stamp='10.838'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+10.838: Deoptimize                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+10.844: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+10.877: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+10.880: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+10.901: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+10.909: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+10.909: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+10.918: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+11.248: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+11.758: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+12.271: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+12.780: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+13.293: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+13.800: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+14.313: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+14.821: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+15.330: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+15.841: RevokeBias                       [      15          0              2    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+15.887: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+15.887: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+16.347: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+16.855: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+17.360: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+17.874: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+18.383: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+18.888: BulkRevokeBias                   [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+19.390: BulkRevokeBias                   [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+19.392: BulkRevokeBias                   [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+19.393: RevokeBias                       [      15          0              2    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+19.899: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.405: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.908: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.908: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.909: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.909: RevokeBias                       [      14          0              2    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.911: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.911: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.916: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.916: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.916: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.917: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.917: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.917: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.917: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.917: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.917: BulkRevokeBias                   [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/core/ResolvableType' witness='org/springframework/core/ResolvableType$1' stamp='20.956'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/core/ResolvableType' witness='org/springframework/core/ResolvableType$1' stamp='20.956'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/core/ResolvableType' witness='org/springframework/core/ResolvableType$1' stamp='20.956'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/core/ResolvableType' witness='org/springframework/core/ResolvableType$1' stamp='20.956'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/core/ResolvableType' witness='org/springframework/core/ResolvableType$1' stamp='20.956'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/core/ResolvableType' witness='org/springframework/core/ResolvableType$1' stamp='20.956'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.956: Deoptimize                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayDeque' witness='org/springframework/context/annotation/ConfigurationClassParser$ImportStack' stamp='20.986'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayDeque' witness='org/springframework/context/annotation/ConfigurationClassParser$ImportStack' stamp='20.986'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayDeque' witness='org/springframework/context/annotation/ConfigurationClassParser$ImportStack' stamp='20.986'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayDeque' witness='org/springframework/context/annotation/ConfigurationClassParser$ImportStack' stamp='20.986'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+20.986: Deoptimize                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.052: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.053: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.053: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.053: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.054: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.056: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.056: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.057: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.057: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.057: RevokeBias                       [      15          1              1    ]      [     0     0     0     0     0    ]  1   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.057: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.058: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.059: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.059: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.060: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.060: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.060: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.060: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.061: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.061: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.061: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.061: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.061: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.062: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.062: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.063: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.063: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.063: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.063: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.064: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.064: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.066: RevokeBias                       [      15          1              1    ]      [     0     0     0     0     0    ]  1   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.066: BulkRevokeBias                   [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.067: RevokeBias                       [      15          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.069: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.069: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.135: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.135: RevokeBias                       [      14          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.148: ParallelGCFailedAllocation       [      14          0              0    ]      [     0     0     0     0    10    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.159: RevokeBias                       [      14          0              2    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.160: RevokeBias                       [      14          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.160: RevokeBias                       [      14          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.161: RevokeBias                       [      14          1              2    ]      [     0     0     0     0     0    ]  1   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.161: BulkRevokeBias                   [      14          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.161: RevokeBias                       [      14          0              2    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.268: CollectForMetadataAllocation       [      14          0              0    ]      [     0     0     0     0    24    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.322: RevokeBias                       [      14          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.445: RevokeBias                       [      15          0              1    ]      [     0     9     9     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/util/stream/AbstractPipeline' x='java/util/stream/AbstractPipeline opEvaluateParallel (Ljava/util/stream/PipelineHelper;Ljava/util/Spliterator;Ljava/util/function/IntFunction;)Ljava/util/stream/Node;' witness='java/util/stream/SortedOps$OfRef' stamp='21.545'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.545: Deoptimize                       [      14          0              1    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/springframework/core/SerializableTypeWrapper$SerializableTypeProxy' x='org/springframework/core/$Proxy20 getTypeProvider ()Lorg/springframework/core/SerializableTypeWrapper$TypeProvider;' witness='org/springframework/core/SerializableTypeWrapper$SerializableTypeProxy' stamp='21.800'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.800: Deoptimize                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/Throwable' x='java/lang/Throwable fillInStackTrace ()Ljava/lang/Throwable;' witness='org/apache/tomcat/util/buf/UDecoder$DecodeException' stamp='21.824'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/lang/Throwable' x='java/lang/Throwable fillInStackTrace ()Ljava/lang/Throwable;' witness='org/apache/tomcat/util/buf/UDecoder$DecodeException' stamp='21.824'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.824: Deoptimize                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/net/URLClassLoader' x='java/net/URLClassLoader getURLs ()[Ljava/net/URL;' witness='org/apache/catalina/loader/WebappClassLoaderBase' stamp='21.906'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.906: Deoptimize                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/net/URLStreamHandlerFactory' x='sun/misc/Launcher$Factory createURLStreamHandler (Ljava/lang/String;)Ljava/net/URLStreamHandler;' witness='java/net/URLStreamHandlerFactory' stamp='21.938'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.938: Deoptimize                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+21.948: RevokeBias                       [      15          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.004: RevokeBias                       [      14          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.005: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.005: RevokeBias                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/core/annotation/AnnotationAwareOrderComparator' witness='org/springframework/boot/web/servlet/ServletContextInitializerBeans$1' stamp='22.010'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/springframework/core/OrderComparator' x='org/springframework/core/OrderComparator getOrder (Ljava/lang/Object;)I' witness='org/springframework/boot/web/servlet/ServletContextInitializerBeans$1' stamp='22.010'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.010: Deoptimize                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/beans/MutablePropertyValues' witness='org/springframework/web/filter/GenericFilterBean$FilterConfigPropertyValues' stamp='22.047'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.047: Deoptimize                       [      14          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.162: ParallelGCFailedAllocation       [      17          0              0    ]      [     0     0     0     0     5    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.168: RevokeBias                       [      17          0              2    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.168: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.169: RevokeBias                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.169: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.169: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.170: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.170: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.170: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.170: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.170: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.171: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.171: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.171: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.171: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.171: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.171: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.171: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.172: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.172: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.172: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.172: RevokeBias                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.172: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.172: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.172: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.172: RevokeBias                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.172: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.172: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.173: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.173: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.173: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.173: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.173: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.173: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.173: BulkRevokeBias                   [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.173: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.173: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.173: RevokeBias                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.174: BulkRevokeBias                   [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='java/io/ByteArrayOutputStream' witness='sun/security/util/DerOutputStream' stamp='22.177'/>
+<dependency_failed type='leaf_type' ctxk='java/io/ByteArrayOutputStream' witness='sun/security/util/DerOutputStream' stamp='22.177'/>
+<dependency_failed type='leaf_type' ctxk='java/io/ByteArrayOutputStream' witness='sun/security/util/DerOutputStream' stamp='22.177'/>
+<dependency_failed type='leaf_type' ctxk='java/io/ByteArrayOutputStream' witness='sun/security/util/DerOutputStream' stamp='22.177'/>
+<dependency_failed type='leaf_type' ctxk='java/io/ByteArrayOutputStream' witness='sun/security/util/DerOutputStream' stamp='22.177'/>
+<dependency_failed type='leaf_type' ctxk='java/io/ByteArrayOutputStream' witness='sun/security/util/DerOutputStream' stamp='22.177'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.177: Deoptimize                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='java/security/cert/Certificate' witness='java/security/cert/X509Certificate' stamp='22.179'/>
+<dependency_failed type='leaf_type' ctxk='java/security/cert/Certificate' witness='java/security/cert/X509Certificate' stamp='22.179'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.179: Deoptimize                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='no_finalizable_subclasses' ctxk='java/util/Hashtable' witness='sun/security/ssl/SunJSSE' stamp='22.205'/>
+<dependency_failed type='no_finalizable_subclasses' ctxk='java/util/Dictionary' witness='sun/security/ssl/SunJSSE' stamp='22.205'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.205: Deoptimize                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='java/security/Provider$Service' witness='org/jcp/xml/dsig/internal/dom/XMLDSigRI$ProviderService' stamp='22.257'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.257: Deoptimize                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='java/net/Socket' witness='javax/net/ssl/SSLSocket' stamp='22.259'/>
+<dependency_failed type='leaf_type' ctxk='java/net/Socket' witness='javax/net/ssl/SSLSocket' stamp='22.259'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.259: Deoptimize                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/net/URLStreamHandler' x='java/net/URLStreamHandler getDefaultPort ()I' witness='sun/net/www/protocol/http/Handler' stamp='22.313'/>
+<dependency_failed type='unique_concrete_method' ctxk='java/net/URLStreamHandler' x='java/net/URLStreamHandler getDefaultPort ()I' witness='sun/net/www/protocol/http/Handler' stamp='22.313'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.313: Deoptimize                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.453: RevokeBias                       [      18          0              1    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='java/util/LinkedHashSet' witness='org/springframework/beans/factory/support/ManagedSet' stamp='22.460'/>
+<dependency_failed type='leaf_type' ctxk='java/util/LinkedHashSet' witness='org/springframework/beans/factory/support/ManagedSet' stamp='22.460'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.460: Deoptimize                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList$Itr' witness='java/util/ArrayList$ListItr' stamp='22.505'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList$Itr' witness='java/util/ArrayList$ListItr' stamp='22.506'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.506: Deoptimize                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.594: RevokeBias                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.594: RevokeBias                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/core/MethodParameter' witness='org/springframework/core/annotation/SynthesizingMethodParameter' stamp='22.642'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/core/MethodParameter' witness='org/springframework/core/annotation/SynthesizingMethodParameter' stamp='22.642'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/core/MethodParameter' witness='org/springframework/core/annotation/SynthesizingMethodParameter' stamp='22.642'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/core/MethodParameter' witness='org/springframework/core/annotation/SynthesizingMethodParameter' stamp='22.642'/>
+<dependency_failed type='leaf_type' ctxk='org/springframework/core/MethodParameter' witness='org/springframework/core/annotation/SynthesizingMethodParameter' stamp='22.642'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.642: Deoptimize                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+<writer thread='3075'/>
+<dependency_failed type='unique_concrete_method' ctxk='org/springframework/context/support/ApplicationObjectSupport' x='java/lang/Object toString ()Ljava/lang/String;' witness='org/springframework/web/servlet/resource/ResourceHttpRequestHandler' stamp='22.655'/>
+<writer thread='20483'/>
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.655: Deoptimize                       [      17          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.809: RevokeBias                       [      30          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.957: RevokeBias                       [      31          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.957: RevokeBias                       [      31          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.958: RevokeBias                       [      31          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.959: RevokeBias                       [      31          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.961: RevokeBias                       [      31          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.962: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.965: RevokeBias                       [      34          0              3    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.966: RevokeBias                       [      34          1              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.966: RevokeBias                       [      34          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.967: RevokeBias                       [      34          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+22.971: RevokeBias                       [      34          0              2    ]      [     0   123   123     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+23.096: RevokeBias                       [      33          0              2    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+24.100: no vm operation                  [      32          0              1    ]      [     0    26    26     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+24.872: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0   255    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+25.128: RevokeBias                       [      32          0              2    ]      [     0    45    45     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+25.174: RevokeBias                       [      32          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+25.174: RevokeBias                       [      32          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+25.175: RevokeBias                       [      32          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+26.179: no vm operation                  [      32          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+27.199: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     8    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+27.254: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     6    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+27.441: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     5    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+27.538: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     5    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+27.792: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     9    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+27.945: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     9    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+28.379: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     7    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+28.629: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     3    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+28.992: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     7    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+29.292: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     9    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+29.608: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     6    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+29.904: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     4    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+30.177: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     3    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+30.452: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     3    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+30.730: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     5    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.002: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     5    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.266: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     5    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.524: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     5    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.775: ParallelGCFailedAllocation       [      32          0              0    ]      [     0     0     0     0     4    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.972: RevokeBias                       [      34          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.975: RevokeBias                       [      34          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.982: RevokeBias                       [      34          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.984: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.984: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.984: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.984: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.985: RevokeBias                       [      33          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.986: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.986: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.986: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.987: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.987: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.987: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.988: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.988: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.988: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.989: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.989: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.989: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.990: RevokeBias                       [      33          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.990: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.990: RevokeBias                       [      33          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.990: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.991: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.991: RevokeBias                       [      33          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.991: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.991: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+31.992: RevokeBias                       [      33          0              1    ]      [     0    58    58     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.052: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.052: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.052: RevokeBias                       [      33          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.052: RevokeBias                       [      33          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.053: RevokeBias                       [      33          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.053: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.053: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.054: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.054: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.057: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.058: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.060: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.060: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.061: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.061: RevokeBias                       [      33          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.066: RevokeBias                       [      33          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.067: RevokeBias                       [      32          0              2    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.067: RevokeBias                       [      30          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.068: RevokeBias                       [      28          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.069: RevokeBias                       [      26          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.069: RevokeBias                       [      25          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.069: RevokeBias                       [      23          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.070: RevokeBias                       [      22          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.070: RevokeBias                       [      22          1              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.071: RevokeBias                       [      22          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.071: RevokeBias                       [      22          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.071: RevokeBias                       [      21          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.071: RevokeBias                       [      21          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.071: RevokeBias                       [      21          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.071: RevokeBias                       [      21          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.072: RevokeBias                       [      20          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.073: RevokeBias                       [      20          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.073: RevokeBias                       [      19          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.073: RevokeBias                       [      18          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.074: RevokeBias                       [      18          0              0    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.078: RevokeBias                       [      17          0              1    ]      [     0     0     0     0     0    ]  0   
+         vmop                    [threads: total initially_running wait_to_block]    [time: spin block sync cleanup vmop] page_trap_count
+32.079: Exit                             [      17          0              2    ]      [     0     0     0     0   352    ]  0   
+
+Polling page always armed
+Deoptimize                        26
+CollectForMetadataAllocation         1
+ParallelGCFailedAllocation        23
+EnableBiasedLocking                1
+RevokeBias                       213
+BulkRevokeBias                     8
+Exit                               1
+    6 VM operations coalesced during safepoint
+Maximum sync time    123 ms
+Maximum vm operation time (except for Exit VM operation)    255 ms
+<tty_done stamp='32.432'/>
+</tty>
+<hotspot_log_done stamp='32.432'/>
+</hotspot_log>

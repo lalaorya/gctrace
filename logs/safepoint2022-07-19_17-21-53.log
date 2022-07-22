@@ -1,0 +1,683 @@
+[2022-07-19T09:21:54.366+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (13 threads)
+[2022-07-19T09:21:54.367+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:21:54.367+0000][info ][safepoint] Safepoint "Cleanup", Time since last: 1068801283 ns, Reaching safepoint: 368470 ns, At safepoint: 7995 ns, Total: 376465 ns
+[2022-07-19T09:21:55.372+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (14 threads)
+[2022-07-19T09:21:55.372+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:21:55.372+0000][info ][safepoint] Safepoint "Cleanup", Time since last: 1005116169 ns, Reaching safepoint: 128246 ns, At safepoint: 2805 ns, Total: 131051 ns
+[2022-07-19T09:21:58.765+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (14 threads)
+[2022-07-19T09:21:58.765+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:21:58.765+0000][trace][safepoint] Thread: 0x00007f9feb008c00  [0x2703] State: _running _at_poll_safepoint 0
+[2022-07-19T09:21:58.765+0000][info ][safepoint] Safepoint "Cleanup", Time since last: 3393169885 ns, Reaching safepoint: 102831 ns, At safepoint: 10359 ns, Total: 113190 ns
+[2022-07-19T09:21:59.063+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (14 threads)
+[2022-07-19T09:21:59.064+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:21:59.064+0000][trace][safepoint] Thread: 0x00007f9feb815a00  [0x9e03] State: _running _at_poll_safepoint 0
+[2022-07-19T09:21:59.069+0000][info ][safepoint] Safepoint "G1CollectForAllocation", Time since last: 298120213 ns, Reaching safepoint: 168680 ns, At safepoint: 5670418 ns, Total: 5839098 ns
+[2022-07-19T09:21:59.507+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (15 threads)
+[2022-07-19T09:21:59.508+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:21:59.512+0000][info ][safepoint] Safepoint "G1CollectForAllocation", Time since last: 437978854 ns, Reaching safepoint: 371102 ns, At safepoint: 4198428 ns, Total: 4569530 ns
+[2022-07-19T09:21:59.807+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (14 threads)
+[2022-07-19T09:21:59.808+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:21:59.808+0000][trace][safepoint] Thread: 0x00007f9feb813e00  [0x5c03] State: _running _at_poll_safepoint 0
+[2022-07-19T09:21:59.808+0000][info ][safepoint] Safepoint "ICBufferFull", Time since last: 295550672 ns, Reaching safepoint: 339975 ns, At safepoint: 56868 ns, Total: 396843 ns
+[2022-07-19T09:22:00.377+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (17 threads)
+[2022-07-19T09:22:00.377+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:00.382+0000][info ][safepoint] Safepoint "CollectForMetadataAllocation", Time since last: 568965177 ns, Reaching safepoint: 217624 ns, At safepoint: 5306819 ns, Total: 5524443 ns
+[2022-07-19T09:22:00.391+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (17 threads)
+[2022-07-19T09:22:00.391+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:00.391+0000][trace][safepoint] Thread: 0x00007f9feb008c00  [0x2703] State: _running _at_poll_safepoint 0
+[2022-07-19T09:22:00.391+0000][trace][safepoint] Thread: 0x00007f9feb008c00  [0x2703] State: _running _at_poll_safepoint 0
+[2022-07-19T09:22:00.391+0000][trace][safepoint] Thread: 0x00007f9feb008c00  [0x2703] State: _running _at_poll_safepoint 0
+[2022-07-19T09:22:00.393+0000][info ][safepoint] Safepoint "G1Concurrent", Time since last: 8769984 ns, Reaching safepoint: 406878 ns, At safepoint: 1449500 ns, Total: 1856378 ns
+[2022-07-19T09:22:00.396+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (17 threads)
+[2022-07-19T09:22:00.396+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:00.396+0000][info ][safepoint] Safepoint "G1Concurrent", Time since last: 3028153 ns, Reaching safepoint: 206476 ns, At safepoint: 111238 ns, Total: 317714 ns
+[2022-07-19T09:22:00.898+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (17 threads)
+[2022-07-19T09:22:00.898+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:00.907+0000][info ][safepoint] Safepoint "G1CollectForAllocation", Time since last: 501692326 ns, Reaching safepoint: 294570 ns, At safepoint: 9050422 ns, Total: 9344992 ns
+[2022-07-19T09:22:00.944+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (17 threads)
+[2022-07-19T09:22:00.944+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:00.948+0000][info ][safepoint] Safepoint "G1CollectForAllocation", Time since last: 36680377 ns, Reaching safepoint: 250110 ns, At safepoint: 4020772 ns, Total: 4270882 ns
+[2022-07-19T09:22:01.027+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.050+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.054+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 78828413 ns, Reaching safepoint: 23764399 ns, At safepoint: 3387986 ns, Total: 27152385 ns
+[2022-07-19T09:22:01.350+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.350+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.352+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 295262561 ns, Reaching safepoint: 157876 ns, At safepoint: 2149305 ns, Total: 2307181 ns
+[2022-07-19T09:22:01.406+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.406+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.407+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 53730279 ns, Reaching safepoint: 93063 ns, At safepoint: 1581117 ns, Total: 1674180 ns
+[2022-07-19T09:22:01.447+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.447+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.448+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 39334037 ns, Reaching safepoint: 92085 ns, At safepoint: 1498552 ns, Total: 1590637 ns
+[2022-07-19T09:22:01.489+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.489+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.490+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 40701586 ns, Reaching safepoint: 101890 ns, At safepoint: 1397210 ns, Total: 1499100 ns
+[2022-07-19T09:22:01.528+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.528+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.532+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 37629124 ns, Reaching safepoint: 423645 ns, At safepoint: 3156000 ns, Total: 3579645 ns
+[2022-07-19T09:22:01.581+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.581+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.584+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 48917841 ns, Reaching safepoint: 150971 ns, At safepoint: 3562257 ns, Total: 3713228 ns
+[2022-07-19T09:22:01.628+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.628+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.630+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 44053995 ns, Reaching safepoint: 189236 ns, At safepoint: 1595324 ns, Total: 1784560 ns
+[2022-07-19T09:22:01.671+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.671+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.674+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 40993976 ns, Reaching safepoint: 239164 ns, At safepoint: 2818814 ns, Total: 3057978 ns
+[2022-07-19T09:22:01.718+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.718+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.723+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 44047272 ns, Reaching safepoint: 311592 ns, At safepoint: 4028398 ns, Total: 4339990 ns
+[2022-07-19T09:22:01.775+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.775+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.779+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 52129567 ns, Reaching safepoint: 271562 ns, At safepoint: 4085086 ns, Total: 4356648 ns
+[2022-07-19T09:22:01.826+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.827+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.828+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 47469985 ns, Reaching safepoint: 139135 ns, At safepoint: 1799814 ns, Total: 1938949 ns
+[2022-07-19T09:22:01.877+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.877+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.880+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 48792268 ns, Reaching safepoint: 179613 ns, At safepoint: 2487928 ns, Total: 2667541 ns
+[2022-07-19T09:22:01.922+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.922+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.924+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 42481897 ns, Reaching safepoint: 106571 ns, At safepoint: 1259592 ns, Total: 1366163 ns
+[2022-07-19T09:22:01.963+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:01.964+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:01.966+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 39733896 ns, Reaching safepoint: 189984 ns, At safepoint: 2056933 ns, Total: 2246917 ns
+[2022-07-19T09:22:02.007+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:02.007+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:02.012+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 41214250 ns, Reaching safepoint: 272286 ns, At safepoint: 5286871 ns, Total: 5559157 ns
+[2022-07-19T09:22:02.236+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:02.236+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:02.238+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 223432370 ns, Reaching safepoint: 150561 ns, At safepoint: 1718401 ns, Total: 1868962 ns
+[2022-07-19T09:22:02.334+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:02.334+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:02.337+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 96575916 ns, Reaching safepoint: 225341 ns, At safepoint: 2442742 ns, Total: 2668083 ns
+[2022-07-19T09:22:02.432+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:02.432+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:02.435+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 94615886 ns, Reaching safepoint: 281914 ns, At safepoint: 3247266 ns, Total: 3529180 ns
+[2022-07-19T09:22:02.526+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:02.527+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:02.528+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 91307961 ns, Reaching safepoint: 111671 ns, At safepoint: 1485439 ns, Total: 1597110 ns
+[2022-07-19T09:22:02.608+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:02.608+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:02.609+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 80112071 ns, Reaching safepoint: 106786 ns, At safepoint: 1064326 ns, Total: 1171112 ns
+[2022-07-19T09:22:02.684+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:02.684+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:02.687+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 74987622 ns, Reaching safepoint: 264282 ns, At safepoint: 2353147 ns, Total: 2617429 ns
+[2022-07-19T09:22:02.785+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:02.785+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:02.787+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 97725786 ns, Reaching safepoint: 147075 ns, At safepoint: 1978895 ns, Total: 2125970 ns
+[2022-07-19T09:22:02.868+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:02.869+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:02.871+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 81674951 ns, Reaching safepoint: 715713 ns, At safepoint: 1552618 ns, Total: 2268331 ns
+[2022-07-19T09:22:02.950+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:02.950+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:02.954+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 79160033 ns, Reaching safepoint: 302183 ns, At safepoint: 3298951 ns, Total: 3601134 ns
+[2022-07-19T09:22:03.046+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:03.046+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:03.048+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 92645809 ns, Reaching safepoint: 127607 ns, At safepoint: 1249698 ns, Total: 1377305 ns
+[2022-07-19T09:22:03.133+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:03.133+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:03.135+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 85740768 ns, Reaching safepoint: 177358 ns, At safepoint: 1810340 ns, Total: 1987698 ns
+[2022-07-19T09:22:03.227+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:03.227+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:03.230+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 91319131 ns, Reaching safepoint: 577135 ns, At safepoint: 3254497 ns, Total: 3831632 ns
+[2022-07-19T09:22:03.330+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:03.330+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:03.331+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 99067158 ns, Reaching safepoint: 108109 ns, At safepoint: 1384294 ns, Total: 1492403 ns
+[2022-07-19T09:22:03.418+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:03.418+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:03.420+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 87218918 ns, Reaching safepoint: 501419 ns, At safepoint: 1543461 ns, Total: 2044880 ns
+[2022-07-19T09:22:03.501+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:03.501+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:03.503+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 81134246 ns, Reaching safepoint: 112933 ns, At safepoint: 1573964 ns, Total: 1686897 ns
+[2022-07-19T09:22:03.585+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:03.585+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:03.587+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 82024783 ns, Reaching safepoint: 102839 ns, At safepoint: 2098937 ns, Total: 2201776 ns
+[2022-07-19T09:22:03.671+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:03.671+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:03.672+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 83397932 ns, Reaching safepoint: 118623 ns, At safepoint: 1172653 ns, Total: 1291276 ns
+[2022-07-19T09:22:03.755+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:03.755+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:03.756+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 82637280 ns, Reaching safepoint: 109023 ns, At safepoint: 1215838 ns, Total: 1324861 ns
+[2022-07-19T09:22:03.843+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:03.843+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:03.847+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 86627698 ns, Reaching safepoint: 174388 ns, At safepoint: 3886757 ns, Total: 4061145 ns
+[2022-07-19T09:22:03.931+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:03.931+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:03.933+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 84378239 ns, Reaching safepoint: 201017 ns, At safepoint: 1828421 ns, Total: 2029438 ns
+[2022-07-19T09:22:04.027+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:04.027+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:04.030+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 93592086 ns, Reaching safepoint: 647359 ns, At safepoint: 2405891 ns, Total: 3053250 ns
+[2022-07-19T09:22:04.127+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:04.127+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:04.132+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 97056994 ns, Reaching safepoint: 536453 ns, At safepoint: 4351076 ns, Total: 4887529 ns
+[2022-07-19T09:22:04.236+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:04.236+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:04.239+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 104108272 ns, Reaching safepoint: 199330 ns, At safepoint: 2854594 ns, Total: 3053924 ns
+[2022-07-19T09:22:04.331+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:04.331+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:04.334+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 92262838 ns, Reaching safepoint: 172672 ns, At safepoint: 2403626 ns, Total: 2576298 ns
+[2022-07-19T09:22:04.429+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:04.430+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:04.434+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 95788414 ns, Reaching safepoint: 320387 ns, At safepoint: 4158541 ns, Total: 4478928 ns
+[2022-07-19T09:22:04.533+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:04.533+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:04.537+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 99123945 ns, Reaching safepoint: 324937 ns, At safepoint: 3905301 ns, Total: 4230238 ns
+[2022-07-19T09:22:04.631+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:04.631+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:04.636+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 93553360 ns, Reaching safepoint: 427594 ns, At safepoint: 4287981 ns, Total: 4715575 ns
+[2022-07-19T09:22:04.730+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:04.730+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:04.734+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 94237753 ns, Reaching safepoint: 275893 ns, At safepoint: 4081510 ns, Total: 4357403 ns
+[2022-07-19T09:22:04.822+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:04.822+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:04.823+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 87911522 ns, Reaching safepoint: 111625 ns, At safepoint: 1277843 ns, Total: 1389468 ns
+[2022-07-19T09:22:04.903+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:04.903+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:04.904+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 79837850 ns, Reaching safepoint: 89188 ns, At safepoint: 1028118 ns, Total: 1117306 ns
+[2022-07-19T09:22:04.983+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:04.983+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:04.986+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 78879011 ns, Reaching safepoint: 198576 ns, At safepoint: 2514231 ns, Total: 2712807 ns
+[2022-07-19T09:22:05.080+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:05.080+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:05.082+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 94030674 ns, Reaching safepoint: 165887 ns, At safepoint: 1520426 ns, Total: 1686313 ns
+[2022-07-19T09:22:05.166+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:05.166+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:05.168+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 83838030 ns, Reaching safepoint: 221233 ns, At safepoint: 2163880 ns, Total: 2385113 ns
+[2022-07-19T09:22:05.267+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:05.267+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:05.271+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 99208807 ns, Reaching safepoint: 434830 ns, At safepoint: 3273916 ns, Total: 3708746 ns
+[2022-07-19T09:22:05.367+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:05.367+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:05.369+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 96045637 ns, Reaching safepoint: 266287 ns, At safepoint: 1809031 ns, Total: 2075318 ns
+[2022-07-19T09:22:05.462+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:05.462+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:05.465+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 92689953 ns, Reaching safepoint: 408931 ns, At safepoint: 3139605 ns, Total: 3548536 ns
+[2022-07-19T09:22:05.565+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:05.565+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:05.568+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 99321386 ns, Reaching safepoint: 852430 ns, At safepoint: 2777936 ns, Total: 3630366 ns
+[2022-07-19T09:22:05.658+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:05.659+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:05.663+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 90280612 ns, Reaching safepoint: 343436 ns, At safepoint: 4123454 ns, Total: 4466890 ns
+[2022-07-19T09:22:05.759+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:05.760+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:05.763+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 96461658 ns, Reaching safepoint: 339230 ns, At safepoint: 3259192 ns, Total: 3598422 ns
+[2022-07-19T09:22:05.859+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:05.859+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:05.863+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 96319514 ns, Reaching safepoint: 376819 ns, At safepoint: 2997973 ns, Total: 3374792 ns
+[2022-07-19T09:22:05.953+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:05.953+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:05.954+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 90121220 ns, Reaching safepoint: 140537 ns, At safepoint: 1506912 ns, Total: 1647449 ns
+[2022-07-19T09:22:06.036+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:06.036+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:06.047+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 81676189 ns, Reaching safepoint: 194840 ns, At safepoint: 10207255 ns, Total: 10402095 ns
+[2022-07-19T09:22:06.131+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:06.131+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:06.134+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 84731885 ns, Reaching safepoint: 198344 ns, At safepoint: 2837165 ns, Total: 3035509 ns
+[2022-07-19T09:22:06.230+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:06.230+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:06.232+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 95653953 ns, Reaching safepoint: 129603 ns, At safepoint: 1640686 ns, Total: 1770289 ns
+[2022-07-19T09:22:06.322+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:06.322+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:06.324+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 90409267 ns, Reaching safepoint: 138166 ns, At safepoint: 1748947 ns, Total: 1887113 ns
+[2022-07-19T09:22:06.405+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:06.405+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:06.407+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 80986238 ns, Reaching safepoint: 147835 ns, At safepoint: 1379655 ns, Total: 1527490 ns
+[2022-07-19T09:22:06.490+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:06.490+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:06.492+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 83768328 ns, Reaching safepoint: 89688 ns, At safepoint: 1424646 ns, Total: 1514334 ns
+[2022-07-19T09:22:06.578+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:06.578+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:06.582+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 85957447 ns, Reaching safepoint: 454989 ns, At safepoint: 3927510 ns, Total: 4382499 ns
+[2022-07-19T09:22:06.682+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:06.682+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:06.685+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 99404393 ns, Reaching safepoint: 234287 ns, At safepoint: 3054056 ns, Total: 3288343 ns
+[2022-07-19T09:22:06.782+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:06.782+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:06.784+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 97285651 ns, Reaching safepoint: 184168 ns, At safepoint: 1732506 ns, Total: 1916674 ns
+[2022-07-19T09:22:06.882+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:06.882+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:06.886+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 98113080 ns, Reaching safepoint: 318998 ns, At safepoint: 3281909 ns, Total: 3600907 ns
+[2022-07-19T09:22:06.982+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:06.982+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:06.986+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 96023000 ns, Reaching safepoint: 387888 ns, At safepoint: 3366536 ns, Total: 3754424 ns
+[2022-07-19T09:22:07.078+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:07.078+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:07.082+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 92269102 ns, Reaching safepoint: 479527 ns, At safepoint: 3332954 ns, Total: 3812481 ns
+[2022-07-19T09:22:07.178+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:07.178+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:07.179+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 95903270 ns, Reaching safepoint: 157686 ns, At safepoint: 1447411 ns, Total: 1605097 ns
+[2022-07-19T09:22:07.267+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:07.267+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:07.269+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 88265981 ns, Reaching safepoint: 85982 ns, At safepoint: 1110360 ns, Total: 1196342 ns
+[2022-07-19T09:22:07.347+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:07.347+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:07.349+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 78242319 ns, Reaching safepoint: 98785 ns, At safepoint: 2070717 ns, Total: 2169502 ns
+[2022-07-19T09:22:07.431+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:07.431+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:07.433+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 82085109 ns, Reaching safepoint: 173547 ns, At safepoint: 1959484 ns, Total: 2133031 ns
+[2022-07-19T09:22:07.530+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (30 threads)
+[2022-07-19T09:22:07.530+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:07.532+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 97065855 ns, Reaching safepoint: 164176 ns, At safepoint: 1557808 ns, Total: 1721984 ns
+[2022-07-19T09:22:07.614+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:07.614+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:07.615+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 81463319 ns, Reaching safepoint: 108528 ns, At safepoint: 1281851 ns, Total: 1390379 ns
+[2022-07-19T09:22:07.696+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:07.696+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:07.698+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 81309170 ns, Reaching safepoint: 277752 ns, At safepoint: 1336122 ns, Total: 1613874 ns
+[2022-07-19T09:22:07.779+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:07.779+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:07.781+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 81443596 ns, Reaching safepoint: 246249 ns, At safepoint: 1497382 ns, Total: 1743631 ns
+[2022-07-19T09:22:07.876+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:07.876+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:07.893+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 94907076 ns, Reaching safepoint: 10162613 ns, At safepoint: 6965080 ns, Total: 17127693 ns
+[2022-07-19T09:22:07.978+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:07.978+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:07.983+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 84862615 ns, Reaching safepoint: 500405 ns, At safepoint: 4196492 ns, Total: 4696897 ns
+[2022-07-19T09:22:08.081+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:08.081+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:08.085+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 98248521 ns, Reaching safepoint: 328091 ns, At safepoint: 3481974 ns, Total: 3810065 ns
+[2022-07-19T09:22:08.185+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:08.185+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:08.186+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 100165004 ns, Reaching safepoint: 208747 ns, At safepoint: 1337826 ns, Total: 1546573 ns
+[2022-07-19T09:22:08.279+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:08.279+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:08.281+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 93015583 ns, Reaching safepoint: 130895 ns, At safepoint: 1532444 ns, Total: 1663339 ns
+[2022-07-19T09:22:08.368+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:08.368+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:08.370+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 87030983 ns, Reaching safepoint: 251395 ns, At safepoint: 1348375 ns, Total: 1599770 ns
+[2022-07-19T09:22:08.478+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:08.478+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:08.479+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 108079776 ns, Reaching safepoint: 147903 ns, At safepoint: 1429924 ns, Total: 1577827 ns
+[2022-07-19T09:22:08.570+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:08.570+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:08.572+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 90909748 ns, Reaching safepoint: 118565 ns, At safepoint: 1521438 ns, Total: 1640003 ns
+[2022-07-19T09:22:08.660+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:08.660+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:08.662+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 88329072 ns, Reaching safepoint: 136388 ns, At safepoint: 1245847 ns, Total: 1382235 ns
+[2022-07-19T09:22:08.749+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:08.749+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:08.750+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 87406368 ns, Reaching safepoint: 118164 ns, At safepoint: 1278453 ns, Total: 1396617 ns
+[2022-07-19T09:22:08.860+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:08.860+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:08.861+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 109258907 ns, Reaching safepoint: 164893 ns, At safepoint: 1368428 ns, Total: 1533321 ns
+[2022-07-19T09:22:08.946+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:08.946+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:08.952+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 85209999 ns, Reaching safepoint: 1187524 ns, At safepoint: 4235555 ns, Total: 5423079 ns
+[2022-07-19T09:22:09.046+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:09.046+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:09.048+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 94397523 ns, Reaching safepoint: 163506 ns, At safepoint: 1224663 ns, Total: 1388169 ns
+[2022-07-19T09:22:09.130+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:09.130+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:09.132+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 82177515 ns, Reaching safepoint: 109299 ns, At safepoint: 1607523 ns, Total: 1716822 ns
+[2022-07-19T09:22:09.210+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:09.210+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:09.211+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 78025896 ns, Reaching safepoint: 95489 ns, At safepoint: 1216494 ns, Total: 1311983 ns
+[2022-07-19T09:22:09.296+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:09.296+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:09.298+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 85316612 ns, Reaching safepoint: 119652 ns, At safepoint: 1322534 ns, Total: 1442186 ns
+[2022-07-19T09:22:09.378+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:09.378+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:09.380+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 80060691 ns, Reaching safepoint: 150644 ns, At safepoint: 1913820 ns, Total: 2064464 ns
+[2022-07-19T09:22:09.460+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:09.460+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:09.461+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 80211790 ns, Reaching safepoint: 164698 ns, At safepoint: 1081115 ns, Total: 1245813 ns
+[2022-07-19T09:22:09.540+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:09.540+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:09.543+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 79092678 ns, Reaching safepoint: 264190 ns, At safepoint: 2291569 ns, Total: 2555759 ns
+[2022-07-19T09:22:09.620+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:09.621+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:09.622+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 77578355 ns, Reaching safepoint: 94771 ns, At safepoint: 1182309 ns, Total: 1277080 ns
+[2022-07-19T09:22:09.699+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:09.699+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:09.700+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 76832033 ns, Reaching safepoint: 145046 ns, At safepoint: 1176198 ns, Total: 1321244 ns
+[2022-07-19T09:22:09.778+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:09.778+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:09.782+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 77714721 ns, Reaching safepoint: 364776 ns, At safepoint: 3581478 ns, Total: 3946254 ns
+[2022-07-19T09:22:09.866+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:09.866+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:09.868+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 84574961 ns, Reaching safepoint: 176846 ns, At safepoint: 1322022 ns, Total: 1498868 ns
+[2022-07-19T09:22:09.946+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:09.946+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:09.950+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 78743452 ns, Reaching safepoint: 261900 ns, At safepoint: 3084349 ns, Total: 3346249 ns
+[2022-07-19T09:22:10.046+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:10.046+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:10.048+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 96725986 ns, Reaching safepoint: 86654 ns, At safepoint: 1345075 ns, Total: 1431729 ns
+[2022-07-19T09:22:10.138+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:10.138+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:10.140+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 89711051 ns, Reaching safepoint: 193255 ns, At safepoint: 2346893 ns, Total: 2540148 ns
+[2022-07-19T09:22:10.233+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:10.234+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:10.237+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 93190573 ns, Reaching safepoint: 419537 ns, At safepoint: 3105967 ns, Total: 3525504 ns
+[2022-07-19T09:22:10.331+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:10.331+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:10.335+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 93674416 ns, Reaching safepoint: 314191 ns, At safepoint: 4159433 ns, Total: 4473624 ns
+[2022-07-19T09:22:10.431+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:10.431+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:10.435+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 96293878 ns, Reaching safepoint: 323095 ns, At safepoint: 3693491 ns, Total: 4016586 ns
+[2022-07-19T09:22:10.529+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:10.529+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:10.532+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 93563297 ns, Reaching safepoint: 301703 ns, At safepoint: 2932284 ns, Total: 3233987 ns
+[2022-07-19T09:22:10.628+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:10.628+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:10.633+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 95733887 ns, Reaching safepoint: 475151 ns, At safepoint: 4276030 ns, Total: 4751181 ns
+[2022-07-19T09:22:10.733+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:10.734+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:10.735+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 100865351 ns, Reaching safepoint: 142046 ns, At safepoint: 1595223 ns, Total: 1737269 ns
+[2022-07-19T09:22:10.820+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:10.820+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:10.821+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 84699932 ns, Reaching safepoint: 97129 ns, At safepoint: 1163219 ns, Total: 1260348 ns
+[2022-07-19T09:22:10.903+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:10.903+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:10.904+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 81780272 ns, Reaching safepoint: 86639 ns, At safepoint: 1222110 ns, Total: 1308749 ns
+[2022-07-19T09:22:10.985+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:10.985+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:10.987+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 81106592 ns, Reaching safepoint: 232391 ns, At safepoint: 1509049 ns, Total: 1741440 ns
+[2022-07-19T09:22:11.072+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:11.072+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:11.074+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 85208363 ns, Reaching safepoint: 100246 ns, At safepoint: 1441480 ns, Total: 1541726 ns
+[2022-07-19T09:22:11.155+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:11.155+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:11.156+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 81054501 ns, Reaching safepoint: 80094 ns, At safepoint: 1068569 ns, Total: 1148663 ns
+[2022-07-19T09:22:11.235+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:11.235+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:11.236+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 78638479 ns, Reaching safepoint: 88203 ns, At safepoint: 1274457 ns, Total: 1362660 ns
+[2022-07-19T09:22:11.328+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:11.328+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:11.332+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 91757269 ns, Reaching safepoint: 383665 ns, At safepoint: 4114486 ns, Total: 4498151 ns
+[2022-07-19T09:22:11.433+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:11.433+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:11.438+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 100985082 ns, Reaching safepoint: 317661 ns, At safepoint: 4125603 ns, Total: 4443264 ns
+[2022-07-19T09:22:11.532+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:11.532+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:11.535+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 93830503 ns, Reaching safepoint: 362840 ns, At safepoint: 3421508 ns, Total: 3784348 ns
+[2022-07-19T09:22:11.628+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:11.629+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:11.630+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 93107067 ns, Reaching safepoint: 106809 ns, At safepoint: 1484691 ns, Total: 1591500 ns
+[2022-07-19T09:22:11.721+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:11.721+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:11.722+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 90734217 ns, Reaching safepoint: 144355 ns, At safepoint: 1222808 ns, Total: 1367163 ns
+[2022-07-19T09:22:11.802+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:11.802+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:11.806+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 79830328 ns, Reaching safepoint: 329249 ns, At safepoint: 3361133 ns, Total: 3690382 ns
+[2022-07-19T09:22:11.903+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:11.903+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:11.907+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 97368790 ns, Reaching safepoint: 334881 ns, At safepoint: 3264109 ns, Total: 3598990 ns
+[2022-07-19T09:22:11.996+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:11.997+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:11.998+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 89770366 ns, Reaching safepoint: 355473 ns, At safepoint: 1386274 ns, Total: 1741747 ns
+[2022-07-19T09:22:12.078+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:12.078+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:12.089+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 79500109 ns, Reaching safepoint: 126373 ns, At safepoint: 11471637 ns, Total: 11598010 ns
+[2022-07-19T09:22:12.172+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:12.172+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:12.174+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 83133065 ns, Reaching safepoint: 172506 ns, At safepoint: 1133687 ns, Total: 1306193 ns
+[2022-07-19T09:22:12.257+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:12.257+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:12.258+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 83130860 ns, Reaching safepoint: 125696 ns, At safepoint: 1517178 ns, Total: 1642874 ns
+[2022-07-19T09:22:12.342+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:12.342+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:12.343+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 83045136 ns, Reaching safepoint: 137422 ns, At safepoint: 1432190 ns, Total: 1569612 ns
+[2022-07-19T09:22:12.435+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:12.435+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:12.436+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 91419399 ns, Reaching safepoint: 201498 ns, At safepoint: 1749779 ns, Total: 1951277 ns
+[2022-07-19T09:22:12.530+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:12.530+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:12.532+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 93197418 ns, Reaching safepoint: 154281 ns, At safepoint: 1947917 ns, Total: 2102198 ns
+[2022-07-19T09:22:12.621+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:12.621+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:12.623+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 89209785 ns, Reaching safepoint: 224331 ns, At safepoint: 1828607 ns, Total: 2052938 ns
+[2022-07-19T09:22:12.724+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:12.724+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:12.728+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 100998499 ns, Reaching safepoint: 332309 ns, At safepoint: 3381694 ns, Total: 3714003 ns
+[2022-07-19T09:22:12.824+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:12.833+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:12.835+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 96707489 ns, Reaching safepoint: 8865461 ns, At safepoint: 1401906 ns, Total: 10267367 ns
+[2022-07-19T09:22:12.931+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:12.932+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:12.936+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 96694387 ns, Reaching safepoint: 292917 ns, At safepoint: 4059385 ns, Total: 4352302 ns
+[2022-07-19T09:22:13.042+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:13.042+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:13.045+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 106403040 ns, Reaching safepoint: 232133 ns, At safepoint: 2694659 ns, Total: 2926792 ns
+[2022-07-19T09:22:13.141+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:13.141+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:13.143+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 95895213 ns, Reaching safepoint: 562239 ns, At safepoint: 1896999 ns, Total: 2459238 ns
+[2022-07-19T09:22:13.229+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:13.229+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:13.231+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 85123528 ns, Reaching safepoint: 146883 ns, At safepoint: 2142042 ns, Total: 2288925 ns
+[2022-07-19T09:22:13.329+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:13.329+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:13.330+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 97708395 ns, Reaching safepoint: 160998 ns, At safepoint: 1392463 ns, Total: 1553461 ns
+[2022-07-19T09:22:13.411+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:13.411+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:13.413+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 81196122 ns, Reaching safepoint: 216616 ns, At safepoint: 1577146 ns, Total: 1793762 ns
+[2022-07-19T09:22:13.503+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:13.503+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:13.504+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 89585419 ns, Reaching safepoint: 115453 ns, At safepoint: 1142070 ns, Total: 1257523 ns
+[2022-07-19T09:22:13.589+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:13.590+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:13.594+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 85413853 ns, Reaching safepoint: 313777 ns, At safepoint: 4095631 ns, Total: 4409408 ns
+[2022-07-19T09:22:13.699+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:13.699+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:13.701+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 105504052 ns, Reaching safepoint: 175525 ns, At safepoint: 1436807 ns, Total: 1612332 ns
+[2022-07-19T09:22:13.794+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:13.794+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:13.797+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 92624643 ns, Reaching safepoint: 396739 ns, At safepoint: 2954098 ns, Total: 3350837 ns
+[2022-07-19T09:22:13.890+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:13.891+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:13.893+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 93586893 ns, Reaching safepoint: 420760 ns, At safepoint: 2491570 ns, Total: 2912330 ns
+[2022-07-19T09:22:13.985+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:13.985+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:13.987+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 91349334 ns, Reaching safepoint: 211639 ns, At safepoint: 2402304 ns, Total: 2613943 ns
+[2022-07-19T09:22:14.079+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:14.079+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:14.081+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 91880960 ns, Reaching safepoint: 154541 ns, At safepoint: 1879621 ns, Total: 2034162 ns
+[2022-07-19T09:22:14.169+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:14.169+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:14.171+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 87910066 ns, Reaching safepoint: 110552 ns, At safepoint: 1205821 ns, Total: 1316373 ns
+[2022-07-19T09:22:14.262+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:14.262+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:14.265+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 91418800 ns, Reaching safepoint: 338962 ns, At safepoint: 2829297 ns, Total: 3168259 ns
+[2022-07-19T09:22:14.356+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:14.356+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:14.359+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 91050609 ns, Reaching safepoint: 1885996 ns, At safepoint: 1122760 ns, Total: 3008756 ns
+[2022-07-19T09:22:14.434+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:14.434+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:14.436+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 74967836 ns, Reaching safepoint: 92567 ns, At safepoint: 1295534 ns, Total: 1388101 ns
+[2022-07-19T09:22:14.519+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:14.519+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:14.520+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 83386779 ns, Reaching safepoint: 100756 ns, At safepoint: 1295871 ns, Total: 1396627 ns
+[2022-07-19T09:22:14.596+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:14.596+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:14.598+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 76010557 ns, Reaching safepoint: 245117 ns, At safepoint: 1824201 ns, Total: 2069318 ns
+[2022-07-19T09:22:14.684+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:14.684+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:14.688+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 85408422 ns, Reaching safepoint: 318807 ns, At safepoint: 3724787 ns, Total: 4043594 ns
+[2022-07-19T09:22:14.779+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:14.779+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:14.783+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 90905438 ns, Reaching safepoint: 357992 ns, At safepoint: 4096091 ns, Total: 4454083 ns
+[2022-07-19T09:22:14.880+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:14.880+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:14.883+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 96897606 ns, Reaching safepoint: 189951 ns, At safepoint: 2426999 ns, Total: 2616950 ns
+[2022-07-19T09:22:14.978+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:14.978+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:14.980+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 95074543 ns, Reaching safepoint: 221315 ns, At safepoint: 2129533 ns, Total: 2350848 ns
+[2022-07-19T09:22:15.073+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:15.073+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:15.074+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 92357327 ns, Reaching safepoint: 105309 ns, At safepoint: 1396577 ns, Total: 1501886 ns
+[2022-07-19T09:22:15.156+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:15.156+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:15.161+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 82080193 ns, Reaching safepoint: 2357642 ns, At safepoint: 3046167 ns, Total: 5403809 ns
+[2022-07-19T09:22:15.248+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:15.248+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:15.249+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 86371591 ns, Reaching safepoint: 157122 ns, At safepoint: 1448051 ns, Total: 1605173 ns
+[2022-07-19T09:22:15.334+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:15.334+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:15.336+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 84220100 ns, Reaching safepoint: 165467 ns, At safepoint: 1767171 ns, Total: 1932638 ns
+[2022-07-19T09:22:15.428+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:15.428+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:15.439+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 92109002 ns, Reaching safepoint: 200534 ns, At safepoint: 11451167 ns, Total: 11651701 ns
+[2022-07-19T09:22:15.522+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:15.522+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:15.525+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 82977551 ns, Reaching safepoint: 104547 ns, At safepoint: 2229940 ns, Total: 2334487 ns
+[2022-07-19T09:22:15.612+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:15.612+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:15.613+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 87077717 ns, Reaching safepoint: 137035 ns, At safepoint: 1150222 ns, Total: 1287257 ns
+[2022-07-19T09:22:15.712+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:15.712+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:15.713+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 99017846 ns, Reaching safepoint: 110273 ns, At safepoint: 1240219 ns, Total: 1350492 ns
+[2022-07-19T09:22:15.796+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:15.796+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:15.798+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 82847411 ns, Reaching safepoint: 98353 ns, At safepoint: 1120956 ns, Total: 1219309 ns
+[2022-07-19T09:22:15.878+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:15.878+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:15.879+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 80246122 ns, Reaching safepoint: 140496 ns, At safepoint: 1375379 ns, Total: 1515875 ns
+[2022-07-19T09:22:15.978+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:15.978+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:15.980+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 98559313 ns, Reaching safepoint: 148029 ns, At safepoint: 2142790 ns, Total: 2290819 ns
+[2022-07-19T09:22:16.064+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:16.064+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:16.065+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 83729800 ns, Reaching safepoint: 118495 ns, At safepoint: 1093574 ns, Total: 1212069 ns
+[2022-07-19T09:22:16.146+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:16.146+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:16.149+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 81311240 ns, Reaching safepoint: 202388 ns, At safepoint: 1980735 ns, Total: 2183123 ns
+[2022-07-19T09:22:16.246+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:16.246+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:16.248+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 97805255 ns, Reaching safepoint: 138883 ns, At safepoint: 1322239 ns, Total: 1461122 ns
+[2022-07-19T09:22:16.330+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:16.330+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:16.332+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 82123101 ns, Reaching safepoint: 115000 ns, At safepoint: 1481799 ns, Total: 1596799 ns
+[2022-07-19T09:22:16.414+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:16.415+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:16.416+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 82910936 ns, Reaching safepoint: 96565 ns, At safepoint: 1377350 ns, Total: 1473915 ns
+[2022-07-19T09:22:16.505+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:16.505+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:16.506+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 89386203 ns, Reaching safepoint: 84010 ns, At safepoint: 1037598 ns, Total: 1121608 ns
+[2022-07-19T09:22:16.590+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:16.590+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:16.592+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 83938693 ns, Reaching safepoint: 169893 ns, At safepoint: 1509733 ns, Total: 1679626 ns
+[2022-07-19T09:22:16.678+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:16.678+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:16.680+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 85792196 ns, Reaching safepoint: 142660 ns, At safepoint: 1692054 ns, Total: 1834714 ns
+[2022-07-19T09:22:16.768+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:16.768+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:16.770+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 88727832 ns, Reaching safepoint: 85504 ns, At safepoint: 1576263 ns, Total: 1661767 ns
+[2022-07-19T09:22:16.846+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:16.846+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:16.848+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 76259195 ns, Reaching safepoint: 81785 ns, At safepoint: 1176432 ns, Total: 1258217 ns
+[2022-07-19T09:22:16.931+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:16.931+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:16.944+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 83436143 ns, Reaching safepoint: 455855 ns, At safepoint: 12467606 ns, Total: 12923461 ns
+[2022-07-19T09:22:17.031+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:17.031+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:17.033+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 87440390 ns, Reaching safepoint: 139726 ns, At safepoint: 1683583 ns, Total: 1823309 ns
+[2022-07-19T09:22:17.111+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:17.111+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:17.113+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 78059652 ns, Reaching safepoint: 112302 ns, At safepoint: 1566018 ns, Total: 1678320 ns
+[2022-07-19T09:22:17.192+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:17.193+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:17.194+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 79506737 ns, Reaching safepoint: 223929 ns, At safepoint: 1597763 ns, Total: 1821692 ns
+[2022-07-19T09:22:17.279+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:17.279+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:17.291+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 84923634 ns, Reaching safepoint: 234365 ns, At safepoint: 11762307 ns, Total: 11996672 ns
+[2022-07-19T09:22:17.378+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:17.378+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:17.381+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 86801707 ns, Reaching safepoint: 235699 ns, At safepoint: 2944778 ns, Total: 3180477 ns
+[2022-07-19T09:22:17.478+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:17.479+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:17.483+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 97137701 ns, Reaching safepoint: 385826 ns, At safepoint: 4152729 ns, Total: 4538555 ns
+[2022-07-19T09:22:17.578+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:17.578+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:17.583+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 95143606 ns, Reaching safepoint: 447534 ns, At safepoint: 4370912 ns, Total: 4818446 ns
+[2022-07-19T09:22:17.673+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:17.673+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:17.674+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 90097946 ns, Reaching safepoint: 130083 ns, At safepoint: 1228953 ns, Total: 1359036 ns
+[2022-07-19T09:22:17.763+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:17.763+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:17.766+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 88753969 ns, Reaching safepoint: 316965 ns, At safepoint: 2996776 ns, Total: 3313741 ns
+[2022-07-19T09:22:17.861+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:17.861+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:17.862+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 94181647 ns, Reaching safepoint: 172336 ns, At safepoint: 1429464 ns, Total: 1601800 ns
+[2022-07-19T09:22:17.945+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:17.945+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:17.946+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 82400793 ns, Reaching safepoint: 144879 ns, At safepoint: 1726022 ns, Total: 1870901 ns
+[2022-07-19T09:22:18.030+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:18.030+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:18.032+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 83744932 ns, Reaching safepoint: 125455 ns, At safepoint: 1352632 ns, Total: 1478087 ns
+[2022-07-19T09:22:18.120+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:18.120+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:18.121+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 88091951 ns, Reaching safepoint: 89656 ns, At safepoint: 1178388 ns, Total: 1268044 ns
+[2022-07-19T09:22:18.201+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:18.201+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:18.202+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 80080466 ns, Reaching safepoint: 142190 ns, At safepoint: 1145846 ns, Total: 1288036 ns
+[2022-07-19T09:22:18.287+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:18.287+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:18.290+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 84821801 ns, Reaching safepoint: 225266 ns, At safepoint: 3040412 ns, Total: 3265678 ns
+[2022-07-19T09:22:18.382+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:18.383+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:18.386+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 91939947 ns, Reaching safepoint: 225469 ns, At safepoint: 2915228 ns, Total: 3140697 ns
+[2022-07-19T09:22:18.481+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:18.481+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:18.483+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 95441853 ns, Reaching safepoint: 308215 ns, At safepoint: 1676259 ns, Total: 1984474 ns
+[2022-07-19T09:22:18.573+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:18.573+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:18.577+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 90125454 ns, Reaching safepoint: 358274 ns, At safepoint: 3223511 ns, Total: 3581785 ns
+[2022-07-19T09:22:18.672+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:18.672+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:18.675+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 95011364 ns, Reaching safepoint: 392496 ns, At safepoint: 2426315 ns, Total: 2818811 ns
+[2022-07-19T09:22:18.778+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:18.778+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:18.781+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 103355719 ns, Reaching safepoint: 270293 ns, At safepoint: 3310309 ns, Total: 3580602 ns
+[2022-07-19T09:22:18.878+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:18.878+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:18.882+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 96426225 ns, Reaching safepoint: 370086 ns, At safepoint: 3407564 ns, Total: 3777650 ns
+[2022-07-19T09:22:18.984+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:18.984+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:18.987+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 101831148 ns, Reaching safepoint: 351990 ns, At safepoint: 3263163 ns, Total: 3615153 ns
+[2022-07-19T09:22:19.086+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:19.086+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:19.089+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 98813560 ns, Reaching safepoint: 237400 ns, At safepoint: 2700061 ns, Total: 2937461 ns
+[2022-07-19T09:22:19.181+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:19.181+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:19.183+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 92467316 ns, Reaching safepoint: 130324 ns, At safepoint: 1560023 ns, Total: 1690347 ns
+[2022-07-19T09:22:19.266+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:19.266+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:19.267+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 82974060 ns, Reaching safepoint: 92181 ns, At safepoint: 1173555 ns, Total: 1265736 ns
+[2022-07-19T09:22:19.348+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:19.348+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:19.349+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 80372035 ns, Reaching safepoint: 215926 ns, At safepoint: 1401216 ns, Total: 1617142 ns
+[2022-07-19T09:22:19.439+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:19.440+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:19.443+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 90178505 ns, Reaching safepoint: 359488 ns, At safepoint: 3204264 ns, Total: 3563752 ns
+[2022-07-19T09:22:19.546+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:19.547+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:19.549+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 103451774 ns, Reaching safepoint: 228995 ns, At safepoint: 2218264 ns, Total: 2447259 ns
+[2022-07-19T09:22:19.637+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:19.637+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:19.639+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 87640985 ns, Reaching safepoint: 257604 ns, At safepoint: 2434043 ns, Total: 2691647 ns
+[2022-07-19T09:22:19.728+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:19.736+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:19.739+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 88667420 ns, Reaching safepoint: 8004318 ns, At safepoint: 3069542 ns, Total: 11073860 ns
+[2022-07-19T09:22:19.852+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:19.852+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:19.855+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 112781623 ns, Reaching safepoint: 417031 ns, At safepoint: 3210637 ns, Total: 3627668 ns
+[2022-07-19T09:22:19.951+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:19.951+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:19.953+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 95489011 ns, Reaching safepoint: 177808 ns, At safepoint: 1569521 ns, Total: 1747329 ns
+[2022-07-19T09:22:20.046+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:20.047+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:20.049+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 93839411 ns, Reaching safepoint: 191152 ns, At safepoint: 2505680 ns, Total: 2696832 ns
+[2022-07-19T09:22:20.138+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:20.138+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:20.140+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 88899757 ns, Reaching safepoint: 196225 ns, At safepoint: 1332066 ns, Total: 1528291 ns
+[2022-07-19T09:22:20.225+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:20.226+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:20.227+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 85857621 ns, Reaching safepoint: 184702 ns, At safepoint: 1295546 ns, Total: 1480248 ns
+[2022-07-19T09:22:20.312+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:20.312+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:20.313+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 84691226 ns, Reaching safepoint: 123408 ns, At safepoint: 1011340 ns, Total: 1134748 ns
+[2022-07-19T09:22:20.399+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (29 threads)
+[2022-07-19T09:22:20.399+0000][trace][safepoint] Setting thread local yield flag for threads
+[2022-07-19T09:22:20.400+0000][info ][safepoint] Safepoint "G1TryInitiateConcMark", Time since last: 86229912 ns, Reaching safepoint: 104767 ns, At safepoint: 1232286 ns, Total: 1337053 ns
+[2022-07-19T09:22:20.481+0000][debug][safepoint] Safepoint synchronization initiated using semaphore wait barrier. (14 threads)
+[2022-07-19T09:22:20.481+0000][trace][safepoint] Setting thread local yield flag for threads

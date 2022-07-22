@@ -1,0 +1,15 @@
+Java HotSpot(TM) 64-Bit Server VM (25.333-b02) for bsd-amd64 JRE (1.8.0_333-b02), built on Apr 26 2022 06:41:53 by "java_re" with gcc 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17)
+Memory: 4k page, physical 16777216k(2599260k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:-BytecodeVerificationLocal -XX:-BytecodeVerificationRemote -XX:InitialHeapSize=268435456 -XX:LogFile=./logs/jdk8safepoint.log -XX:+LogVMOutput -XX:+ManagementServer -XX:MaxHeapSize=4294967296 -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+PrintSafepointStatistics -XX:PrintSafepointStatisticsCount=1 -XX:TieredStopAtLevel=1 -XX:+UnlockDiagnosticVMOptions -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseParallelGC 
+2022-07-20T20:36:10.466-0800: 0.276: Total time for which application threads were stopped: 0.0001851 seconds, Stopping threads took: 0.0000134 seconds
+2022-07-20T20:36:10.467-0800: 0.277: Total time for which application threads were stopped: 0.0001180 seconds, Stopping threads took: 0.0000106 seconds
+2022-07-20T20:36:11.469-0800: 1.279: Total time for which application threads were stopped: 0.0001093 seconds, Stopping threads took: 0.0000198 seconds
+2022-07-20T20:36:15.537-0800: 5.347: Total time for which application threads were stopped: 0.0001731 seconds, Stopping threads took: 0.0000096 seconds
+2022-07-20T20:36:15.539-0800: 5.349: Total time for which application threads were stopped: 0.0001334 seconds, Stopping threads took: 0.0000067 seconds
+2022-07-20T20:36:15.643-0800: 5.453: Total time for which application threads were stopped: 0.0002717 seconds, Stopping threads took: 0.0000434 seconds
+2022-07-20T20:36:15.658-0800: 5.468: Total time for which application threads were stopped: 0.0002114 seconds, Stopping threads took: 0.0000223 seconds
+2022-07-20T20:36:15.859-0800: 5.669: Total time for which application threads were stopped: 0.0002149 seconds, Stopping threads took: 0.0000105 seconds
+2022-07-20T20:36:16.860-0800: 6.670: Total time for which application threads were stopped: 0.0003111 seconds, Stopping threads took: 0.0000314 seconds

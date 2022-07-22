@@ -10,7 +10,7 @@ CommandLine flags: -XX:-BytecodeVerificationLocal -XX:-BytecodeVerificationRemot
 2022-06-28T09:54:40.580-0800: 5.365: Total time for which application threads were stopped: 0.0000995 seconds, Stopping threads took: 0.0000098 seconds
 2022-06-28T09:54:40.582-0800: 5.367: Total time for which application threads were stopped: 0.0000729 seconds, Stopping threads took: 0.0000073 seconds
 2022-06-28T09:54:40.663-0800: 5.448: Total time for which application threads were stopped: 0.0002133 seconds, Stopping threads took: 0.0000118 seconds
-2022-06-28T09:54:40.708-0800: 5.493: Total time for which application threads were stopped: 0.0001602 seconds, Stopping threads took: 0.0000246 seconds
+2022-06-28T09:54:40.708-0800: 5.493: Total tim/: 0.0000246 seconds
 2022-06-28T09:54:40.875-0800: 5.660: Total time for which application threads were stopped: 0.0001514 seconds, Stopping threads took: 0.0000112 seconds
 2022-06-28T09:54:41.880-0800: 6.665: Total time for which application threads were stopped: 0.0002624 seconds, Stopping threads took: 0.0000498 seconds
 2022-06-28T09:54:44.628-0800: 9.412: Total time for which application threads were stopped: 0.0004258 seconds, Stopping threads took: 0.0000441 seconds

@@ -48,11 +48,13 @@ import java.util.concurrent.atomic.AtomicLong;
  *   -Xms500m
  *   -XX:+UseConcMarkSweepGC
  *   -XX:+UseParNewGC
+ *   -XX:+UseParallelGC
  *   -Xloggc:./logs/gc.log
  *   -XX:+PrintGCDetails
  *   -XX:+PrintGCDateStamps
  *   -XX:+PrintGCApplicationConcurrentTime
- *   -XX:+PrintGCApplicationStoppedTime
+ *   -XX:+
+ *
  *   -XX:+PrintSafepointStatistics
  *   -XX:+PrintSafepointStatisticsCount=1
  * -XX:+UnlockDiagnosticVMOptions
@@ -65,6 +67,10 @@ import java.util.concurrent.atomic.AtomicLong;
  *
  *
  *   -Xlog:gc*:./logs/gc.log
+ *
+ *
+ *   最终版
+ *   -Xlog:codecache+sweep*=trace,class+unload,class+load,os+thread,safepoint,gc*,gc+stringdedup=debug,gc+ergo*=trace,gc+age=trace,gc+phases=trace,gc+humongous=trace,jit+compilation=debug:file=/Users/huanghaojie/IdeaProjects/gctoolkit-test/src/main/resources/gclog-fat.log:level,tags,time,uptime,pid:filesize=104857600,filecount=5
  */
 @Configuration
 public class  BindGCNotifyConfig {

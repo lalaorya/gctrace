@@ -34,7 +34,7 @@ public class GctraceApplication {
 
                     System.out.println(collect.size());
                     System.out.println("-----------------p----------------");
-                    Thread.sleep(10000);
+                    Thread.sleep(10);
                 }
 
 
